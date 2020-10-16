@@ -216,7 +216,7 @@ export default ({
           }
         })}
         {data.searchNotification.length === 0 ? (
-          <NullPageBox> 🤔 알림이 없습니다 🤔</NullPageBox>
+          <NullPageBox> <span>🤔</span> 알림이 없습니다 <span>🤔</span></NullPageBox>
         ) : (
           ""
         )}

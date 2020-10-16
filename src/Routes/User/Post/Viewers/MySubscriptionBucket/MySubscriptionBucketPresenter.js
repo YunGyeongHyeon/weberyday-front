@@ -90,7 +90,7 @@ export default ({ data, onSubmit, render, setRender, refetch, error }) => {
           <SubscriptionBox>
             <Exit />
             <Text style={{ paddingTop: "10px", paddingRight: "10px" }}>
-              아직 구독해놓은 작품이 없습니다 구독해주세요 👉
+              아직 구독해놓은 작품이 없습니다 구독해주세요 <span>👉</span>
             </Text>
             <Link to="/">
               <Text style={{ paddingTop: "10px" }}>작품 보러 가기</Text>

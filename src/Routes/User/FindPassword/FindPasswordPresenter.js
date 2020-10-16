@@ -110,11 +110,11 @@ export default ({
               </FindPasswordDescription>
             ) : value === false || value === "" ? (
               <FindPasswordDescription>
-                해당 이메일로 발송된 시크릿 코드를 입력해주세요 📦
+                해당 이메일로 발송된 시크릿 코드를 입력해주세요 <span>📦</span>
               </FindPasswordDescription>
             ) : (
               <FindPasswordDescription>
-                변경할 비밀번호를 입력해주세요 🔐
+                변경할 비밀번호를 입력해주세요 <span>🔐</span>
               </FindPasswordDescription>
             )}
 
@@ -286,7 +286,7 @@ export default ({
           </>
         ) : (
           <>
-            <Title>🔒비밀번호 변경을 완료하였습니다 🔒</Title>
+            <Title><span>🔒</span>비밀번호 변경을 완료하였습니다 <span>🔒</span></Title>
             <MainBox
               style={{
                 display: "flex",
@@ -307,7 +307,7 @@ export default ({
               >
                 <br />
                 <Text>
-                  새롭게 변경된 계정으로 로그인하여 주시길 바랍니다 😁
+                  새롭게 변경된 계정으로 로그인하여 주시길 바랍니다 <span>😁</span>
                 </Text>
               </TextBox>
               <Link to="/">

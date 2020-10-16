@@ -188,7 +188,7 @@ export default ({
       </CategoryContainer>
       {value === "No" ? (
         <p style={{ paddingLeft: "20px" }}>
-          해당 카테고리로 등록된 작품이 없습니다. 👉
+          해당 카테고리로 등록된 작품이 없습니다. <span>👉</span>
           <Link to="/" style={{ paddingLeft: "10px" }}>
             다른 작품 보러가기
           </Link>

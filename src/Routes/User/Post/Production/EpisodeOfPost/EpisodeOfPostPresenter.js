@@ -181,7 +181,7 @@ export default ({ oneOfPost, loading, refetch, render, setRender }) => {
                     }}
                   >
                     <Title style={{ fontWeight: "bold" }}>
-                      새로운 회차를 등록하세요 ➕
+                      새로운 회차를 등록하세요 <span>➕</span>
                     </Title>
                   </EpisodeDescription>
                 </Link>
