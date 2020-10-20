@@ -273,8 +273,8 @@ export default ({
       <PostUploadForm
         action={
           jwtTokenIsUser()
-            ? "https://weberyday-fileupload-backend.herokuapp.com/uploadPost"
-            : "https://weberyday-fileupload-backend.herokuapp.com/"
+            ? "https://weberyday-fileupload.herokuapp.com/uploadPost"
+            : "https://weberyday-fileupload.herokuapp.com/"
         }
         method="post"
         encType="multipart/form-data"
