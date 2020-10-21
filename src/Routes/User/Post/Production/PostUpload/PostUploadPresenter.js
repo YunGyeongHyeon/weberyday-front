@@ -417,9 +417,17 @@ export default ({
             disabled={disabled}
             onClick={() => {
               setUpload("loading");
-              onSubmit();
+              // onSubmit();
             }}
             value="작품등록"
+          />
+          <SubmitButton
+           
+            onClick={() => {
+              setUpload("loading");
+              // onSubmit();
+            }}
+            value="테스트용"
           />
         </ButtonBox>
       </PostUploadForm>
