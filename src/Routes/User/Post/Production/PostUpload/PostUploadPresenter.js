@@ -272,7 +272,7 @@ export default ({
       </TitleBox>
       <PostUploadForm
         action={
-             "https://weberyday-fileupload.herokuapp.com/uploadPost"
+             "https://weberyday-fileupload.herokuapp.com/"
         }
         method="post"
         encType="multipart/form-data"
